@@ -16,6 +16,16 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    lintOptions {
+        abortOnError false
+        checkReleaseBuilds true
+        ignoreWarnings true
+        checkAllWarnings false
+        warningsAsErrors false
+        htmlReport false
+        enable 'InlinedApi', 'NewApi', 'EnforceUTF8'
+        fatal 'InlinedApi', 'NewApi', 'EnforceUTF8'
+    }
 }
 
 dependencies {
