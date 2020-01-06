@@ -12,6 +12,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import hugo.weaving.DebugLog;
+
 //import io.reactivex.Observable;
 //import io.reactivex.ObservableEmitter;
 //import io.reactivex.ObservableOnSubscribe;
@@ -22,6 +24,7 @@ import java.util.concurrent.TimeUnit;
 //import io.reactivex.functions.Predicate;
 //import io.reactivex.subjects.PublishSubject;
 
+@DebugLog
 public class MainActivity extends AppCompatActivity {
 
     @Override
